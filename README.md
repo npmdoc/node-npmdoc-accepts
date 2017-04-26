@@ -1,6 +1,6 @@
 # npmdoc-accepts
 
-#### api documentation for  [accepts (v1.3.3)](https://github.com/jshttp/accepts#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-accepts.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-accepts) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-accepts.svg)](https://travis-ci.org/npmdoc/node-npmdoc-accepts)
+#### basic api documentation for  [accepts (v1.3.3)](https://github.com/jshttp/accepts#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-accepts.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-accepts) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-accepts.svg)](https://travis-ci.org/npmdoc/node-npmdoc-accepts)
 
 #### Higher-level content negotiation
 
@@ -80,7 +80,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
     },
-    "version": "1.3.3"
+    "version": "1.3.3",
+    "bin": {}
 }
 ```
 
